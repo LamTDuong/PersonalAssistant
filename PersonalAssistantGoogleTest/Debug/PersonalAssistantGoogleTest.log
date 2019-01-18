@@ -1,0 +1,10 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  test.cpp
+c:\users\lam\source\repos\personalassistant\personalassistant\event.cpp(30): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  c:\users\lam\source\repos\personalassistant\personalassistant\date.h(4329): note: could be 'date::time_of_day<std::chrono::seconds> &date::time_of_day<std::chrono::seconds>::operator =(date::time_of_day<std::chrono::seconds> &&)'
+  c:\users\lam\source\repos\personalassistant\personalassistant\date.h(4329): note: or       'date::time_of_day<std::chrono::seconds> &date::time_of_day<std::chrono::seconds>::operator =(const date::time_of_day<std::chrono::seconds> &)'
+  c:\users\lam\source\repos\personalassistant\personalassistant\event.cpp(30): note: while trying to match the argument list '(date::time_of_day<std::chrono::seconds>, int)'
+c:\users\lam\source\repos\personalassistant\personalassistant\event.cpp(30): error C2143: syntax error: missing ';' before ':'
+c:\users\lam\source\repos\personalassistant\personalassistant\event.cpp(30): error C2059: syntax error: ':'
+c:\users\lam\source\repos\personalassistant\personalassistant\event.cpp(30): error C2041: illegal digit '8' for base '8'
+c:\users\lam\source\repos\personalassistant\personalassistantgoogletest\test.cpp(8): error C2661: 'Event::Event': no overloaded function takes 5 arguments

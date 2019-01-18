@@ -1,0 +1,38 @@
+﻿  unittest1.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(66): error C2338: Test writer must define specialization of ToString<const Q& q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<class date::day>(const class date::day &).
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(134): note: see reference to function template instantiation 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)' being compiled
+          with
+          [
+              T=date::day,
+              Q=date::day
+          ]
+  c:\users\lam\source\repos\personalassistant\personalassistantnativetests\unittest1.cpp(17): note: see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<date::day>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=date::day
+          ]
+  c:\users\lam\source\repos\personalassistant\personalassistant\date.h(152): note: see reference to class template instantiation 'std::chrono::duration<int,std::ratio<86400,1>>' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(66): error C2338: Test writer must define specialization of ToString<const Q& q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<class date::month>(const class date::month &).
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(134): note: see reference to function template instantiation 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)' being compiled
+          with
+          [
+              T=date::month,
+              Q=date::month
+          ]
+  c:\users\lam\source\repos\personalassistant\personalassistantnativetests\unittest1.cpp(18): note: see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<date::month>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=date::month
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(66): error C2338: Test writer must define specialization of ToString<const Q& q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<class date::year>(const class date::year &).
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\unittest\include\cppunittestassert.h(134): note: see reference to function template instantiation 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)' being compiled
+          with
+          [
+              T=date::year,
+              Q=date::year
+          ]
+  c:\users\lam\source\repos\personalassistant\personalassistantnativetests\unittest1.cpp(19): note: see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<date::year>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=date::year
+          ]
